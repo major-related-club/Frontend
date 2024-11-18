@@ -1,0 +1,40 @@
+h1 {
+  font-size: 48px;
+  padding-left: 100px;
+  padding-top: 40px;
+}
+
+.contentContainer {
+  display: flex; /* 사진과 텍스트를 가로로 배치 */
+  align-items: center; /* 세로로 중앙 정렬 */
+  padding-left: 50px; /* 왼쪽 여백 */
+  padding-right: 50px; /* 오른쪽 여백 */
+}
+
+.medicineImage {
+  width: 400px; /* 사진 너비 */
+  height: 200px; /* 사진 높이 */
+  margin-right: 80px; /* 사진과 텍스트 사이의 여백 */
+}
+
+.description {
+  font-size: 18px; /* 텍스트 크기 */
+  line-height: 1.6; /* 줄 간격 */
+  color: #333; /* 텍스트 색상 */
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+}
+
+.buttonStyle {
+  margin: 0 60px;
+  padding: 10px 60px;
+  font-size: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 5px;
+}

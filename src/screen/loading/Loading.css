@@ -1,0 +1,37 @@
+.logo {
+  font-size: 48px;
+  padding-left: 100px; /* 제목 왼쪽 여백 */
+  padding-top: 40px; /* 제목 위쪽 여백 */
+}
+
+.loadingScreen {
+  display: flex;
+  flex-direction: column; /* 세로 정렬 */
+  justify-content: center; /* 스피너와 텍스트를 세로 중앙 정렬 */
+  align-items: center; /* 가로 중앙 정렬 */
+}
+
+.spinner {
+  border: 8px solid #f3f3f3; /* 스피너의 외곽 */
+  border-top: 8px solid black; /* 스피너의 색상 */
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite; /* 회전 애니메이션 */
+  margin-bottom: 20px; /* 텍스트와 스피너 사이의 여백 */
+  margin-top: 150px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loadingText {
+  font-size: 18px;
+  color: #333;
+}
