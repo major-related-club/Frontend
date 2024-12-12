@@ -50,7 +50,7 @@ function Result() {
         <hr className="centered-line" />
         <div
           className="imageTextPair"
-          onClick={() => handleNavigate("/Detail")}
+          onClick={() => handleNavigate("/Detail3")}
           style={{ cursor: "pointer" }}
         >
           <img
@@ -64,7 +64,7 @@ function Result() {
         <hr className="centered-line" />
         <div
           className="imageTextPair"
-          onClick={() => handleNavigate("/Detail")}
+          onClick={() => handleNavigate("/Detail4")}
           style={{ cursor: "pointer" }}
         >
           <img
